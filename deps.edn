@@ -1,0 +1,13 @@
+{:aliases {:linux {:extra-deps {org.lwjgl/lwjgl$natives-linux        {:mvn/version "3.2.3"}
+                                org.lwjgl/lwjgl-glfw$natives-linux   {:mvn/version "3.2.3"}
+                                org.lwjgl/lwjgl-opengl$natives-linux {:mvn/version "3.2.3"}}}}
+
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        org.lwjgl/lwjgl {:mvn/version "3.2.3"}
+        org.lwjgl/lwjgl-glfw {:mvn/version "3.2.3"}
+        org.lwjgl/lwjgl-opengl {:mvn/version "3.2.3"}
+        org.jetbrains.skija/skija-linux {:mvn/version "0.93.1"}}
+ 
+ :mvn/repos {"space-maven" {:url "https://packages.jetbrains.team/maven/p/skija/maven"}}
+
+ :paths ["src/main"]}
